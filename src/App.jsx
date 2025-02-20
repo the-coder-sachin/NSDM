@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import Header from './components/Header'
 import Slideshow from './components/Slideshow'
 
@@ -9,6 +9,9 @@ import Section1 from './components/Section1'
 import Section2 from './components/Section2'
 import Section3 from './components/Section3'
 import Section4 from './components/Section4'
+import Section5 from './components/Section5'
+import Section6 from './Section6'
+import University from './components/University'
 
 const images = [
   one,
@@ -17,7 +20,13 @@ const images = [
 ]
 
 function App() {
+  const [curserPosition, setCurserPosition] = useState({x: 0, y: 0})
 
+  const updateMousePosition = {}
+  useEffect(() => {
+    
+  }, [])
+  
   
   return (
     <>
@@ -30,6 +39,12 @@ function App() {
     <Section3/>
     <div className='h-2 bg-slate-100'/>
     <Section4/>
+    <div className='h-2 bg-slate-100'/>
+    <Section5/>
+    <div className='h-2 bg-slate-100'/>
+    <Section6/>
+    <div className='h-2 bg-slate-100'/>
+    <University/>
     </>
   )
 }
