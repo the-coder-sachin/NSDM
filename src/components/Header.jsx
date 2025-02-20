@@ -1,5 +1,5 @@
 import React, { useRef, useState } from 'react'
-import logo from '../../public/logo.jpg'
+import logo from '/public/logo.jpg'
 
 const Header = () => {
     const options = useRef();

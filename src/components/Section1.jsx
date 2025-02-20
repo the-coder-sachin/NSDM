@@ -1,13 +1,13 @@
 import React from 'react'
-import hero from '../../public/hero.png'
+import hero from '/public/hero.png'
 
 const Section1 = () => {
   return (
-    <section className='h-screen'>
+    <section className='h-screen p-10'>
       <h2 className="text-4xl font-bold text-center py-10 text-cyan-700 capitalize">
         national academy of higher education and development - NAHEAD
       </h2>
-      <div className="flex justify-center items-center px-20">
+      <div className="flex justify-center items-center px-20 py-10">
         <p className="leading-loose tracking-wider">
           Skills training is designed to provide employees with the targeted
           training they need to gain the knowledge and abilities necessary to
