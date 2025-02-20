@@ -2,8 +2,8 @@ import React from 'react'
 
 const Section2 = () => {
   return (
-    <section className="px-20 h-screen">
-      <h3 className="text-teal-600 text-4xl capitalize text-center font-bold pt-10">
+    <section className="px-20 xl:h-screen">
+      <h3 className="text-teal-600 text-2xl xl:text-4xl capitalize text-center font-bold pt-10">
         Advantages of Skill India
       </h3>
       <p className="leading-loose tracking-wider pt-9 pb-5">
@@ -25,7 +25,7 @@ const Section2 = () => {
           cooperation.
         </li>
       </ol>
-      <p className='leading-loose tracking-wider pt-10'>
+      <p className='leading-loose tracking-wider py-10'>
         A skill is the ability to do something well, a certain competence or
         proficiency. Skills are typically acquired or developed through direct
         experiences and training, and they can require sustained effort.

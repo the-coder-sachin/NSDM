@@ -37,7 +37,7 @@ const Header = () => {
         </div>
       </marquee>
       <hr />
-      <nav className="flex justify-evenly items-center p-5">
+      <nav className="lg:flex-row lg:justify-evenly flex justify-center items-center p-5 flex-col">
         <div className="logo size-36 bg-teal-700 cursor-pointer">
           <img src={logo} alt="" />
         </div>

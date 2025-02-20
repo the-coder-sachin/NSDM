@@ -12,6 +12,7 @@ import Section4 from './components/Section4'
 import Section5 from './components/Section5'
 import Section6 from './Section6'
 import University from './components/University'
+import Footer from './components/Footer'
 
 const images = [
   one,
@@ -45,6 +46,8 @@ function App() {
     <Section6/>
     <div className='h-2 bg-slate-100'/>
     <University/>
+    <div className='h-2 bg-slate-100'/>
+    <Footer/>
     </>
   )
 }

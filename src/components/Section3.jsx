@@ -3,11 +3,11 @@ import boy from '/public/boy-reading.png'
 
 const Section3 = () => {
   return (
-    <section className="h-screen p-10">
-      <h2 className="text-4xl font-bold text-start pl-20 py-10 text-cyan-700 capitalize">
+    <section className="xl:h-screen p-10">
+      <h2 className="lg:text-4xl text-2xl font-bold text-start pl-20 py-10 text-cyan-700 capitalize">
         Daily Living Skills
       </h2>
-      <div className="flex justify-center items-center px-20">
+      <div className="flex flex-col xl:flex-row justify-center items-center px-4 xl:px-20">
         <p className="leading-loose tracking-wider">
           The term “daily living skills” refers to a wide range of personal
           self-care activities across home, school, work, and community
@@ -23,7 +23,7 @@ const Section3 = () => {
         <img
           src={boy}
           alt="img"
-          className="w-[280px] md:w-[420px] cursor-pointer hover:scale-105 transition-all duration-500 mt-[-90px]"
+          className="w-[280px] md:w-[420px] cursor-pointer hover:scale-105 transition-all duration-500 xl:mt-[-90px]"
         />
       </div>
     </section>
