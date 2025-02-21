@@ -13,6 +13,7 @@ import Section5 from './components/Section5'
 import Section6 from './Section6'
 import University from './components/University'
 import Footer from './components/Footer'
+import Courses from './components/Courses'
 
 const images = [
   one,
@@ -33,6 +34,9 @@ function App() {
     <>
     <Header/>
     <Slideshow images={images}  />
+    <div className='h-2 bg-slate-100'/>
+    <Courses/>
+    <div className='h-2 bg-slate-100'/>
     <Section1/>
     <div className='h-2 bg-slate-100'/>
     <Section2/>
